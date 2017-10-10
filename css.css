@@ -10,7 +10,6 @@ a:hover {
   text-decoration: none;
 }
 
-
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
@@ -20,7 +19,6 @@ a:hover {
   background-color: #fff;
   border: .05rem solid #fff;
 }
-
 
 /*
  * Base structure
@@ -32,7 +30,7 @@ body {
   background-color: #333;
 }
 body {
-  color: #fff;
+  /*color: #fff;*/
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
 }
@@ -51,15 +49,16 @@ body {
   vertical-align: top;
 }
 .cover-container {
+  color: #fff;
   margin-right: auto;
   margin-left: auto;
+  height: 100vh;
 }
 
 /* Padding for spacing */
 .inner {
   padding: 2rem;
 }
-
 
 /*
  * Header
@@ -111,12 +110,12 @@ body {
 
 .cover {
   padding: 0 1.5rem;
+  margin-top: 50%;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: bold;
 }
-
 
 /*
  * Footer
@@ -125,8 +124,11 @@ body {
 .mastfoot {
   color: rgba(255,255,255,.5);
 }
-
-
+.footer-container {
+  color: #fff;
+  margin-right: auto;
+  margin-left: auto;
+}
 /*
  * Affix and center
  */
@@ -149,7 +151,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    width: 100%;
   }
 }
 
@@ -157,6 +159,6 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 42rem;
+    width: 62rem;
   }
 }
