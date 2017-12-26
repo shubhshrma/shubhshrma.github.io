@@ -2,6 +2,13 @@
  * Globals
  */
 
+/* Colors used
+ * Periwinkle #c6d4ff 
+ * Shadow blue #7a82ab
+ * Myrtle green #307473
+ * Bottle green #12664f
+ * Blue green #2dc2bd
+
 /* Links */
 a,
 a:focus,
@@ -143,20 +150,8 @@ body {
   margin-left: auto;
 }
 
-/*
- * Section2
- */
-.project-card{
-  margin: auto;
-  width: 30rem;
-  border: 0.25rem solid #333;
-  border-radius: 0.45rem;
-  box-shadow: 0 0 1em #333;
-}
 
-.section2-container .jumbotron .row {
-  margin-top: 5rem;
-}
+
 /*
  * Affix and center
  */
@@ -189,4 +184,31 @@ body {
   .cover-container {
     width: 65rem;
   }
+}
+
+/* 
+ * Projects container 
+ */
+
+.projects-container .jumbotron{
+  background-color: #2dc2bd;
+  color: white;
+  font-weight: bold;
+}
+.projects-container .row {
+  margin: 10rem auto;
+}
+.project-card {
+  border: 0.25rem solid black;
+  border-radius: 0.25rem;
+  background-color: #307473;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+.project-card h2 {
+  color: #c6d4ff;
+  
+}
+.project-card:hover {
+  cursor: pointer;
 }
